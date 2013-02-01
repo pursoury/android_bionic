@@ -13,9 +13,6 @@
 static char rcsid[] = "$FreeBSD: src/lib/msun/src/e_pow.c,v 1.11 2005/02/04 18:26:06 das Exp $";
 #endif
 
-#if defined(KRAIT_NEON_OPTIMIZATION)
-double pow_neon(double x, double y);
-#endif
 
 /* __ieee754_pow(x,y) return x**y
  *
